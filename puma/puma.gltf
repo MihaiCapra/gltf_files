@@ -1,0 +1,439 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 28223,
+      "max": [
+        1.0,
+        0.3806368410587311,
+        0.4514520466327667
+      ],
+      "min": [
+        -1.0,
+        -0.38063687086105347,
+        -0.4514520764350891
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 28223,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 28223,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 162108,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 360,
+      "max": [
+        14.958333333333334
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 360,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 360,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 360,
+      "type": "VEC3"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 4,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 4,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 4,
+            "path": "translation"
+          }
+        }
+      ],
+      "name": "All Animations_Rotator",
+      "samplers": [
+        {
+          "input": 4,
+          "interpolation": "LINEAR",
+          "output": 5
+        },
+        {
+          "input": 4,
+          "interpolation": "LINEAR",
+          "output": 6
+        },
+        {
+          "input": 4,
+          "interpolation": "LINEAR",
+          "output": 7
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.1.46",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 338676,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 338676,
+      "byteOffset": 338676
+    },
+    {
+      "buffer": 0,
+      "byteLength": 225784,
+      "byteOffset": 677352
+    },
+    {
+      "buffer": 0,
+      "byteLength": 324216,
+      "byteOffset": 903136
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1440,
+      "byteOffset": 1227352
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4320,
+      "byteOffset": 1228792
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5760,
+      "byteOffset": 1233112
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4320,
+      "byteOffset": 1238872
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1243192,
+      "uri": "0319_Puma.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "image0.png"
+    }
+  ],
+  "materials": [
+    {
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "name": "0223_Puma",
+      "pbrMetallicRoughness": {}
+    }
+  ],
+  "meshes": [
+    {
+      "name": "defaultobject",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "headLight",
+      "translation": [
+        -139.1818389892578,
+        69.5909194946289,
+        -69.5909194946289
+      ]
+    },
+    {
+      "children": [
+        0
+      ],
+      "name": "Camera",
+      "rotation": [
+        -0.13917313516139984,
+        0.0,
+        0.0,
+        0.9902680516242981
+      ],
+      "translation": [
+        12.130592346191406,
+        690.8171997070312,
+        -194.28085327148438
+      ]
+    },
+    {
+      "name": "keyLight",
+      "rotation": [
+        0.9530205726623535,
+        -0.17488254606723785,
+        -0.17488253116607666,
+        -0.17488254606723785
+      ],
+      "scale": [
+        0.0,
+        4.8116312427737284E-6,
+        140.5736541748047
+      ],
+      "translation": [
+        -136.4878387451172,
+        -142.79299926757812,
+        -283.0179443359375
+      ]
+    },
+    {
+      "name": "SwirlShoe"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Rotator",
+      "scale": [
+        15.0,
+        15.0,
+        15.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        87.47723388671875
+      ]
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Node.002",
+      "translation": [
+        8.22939682006836,
+        0.43846192955970764,
+        -4.492976188659668
+      ]
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "Node.001",
+      "translation": [
+        -8.22939682006836,
+        -0.43846192955970764,
+        4.492976188659668
+      ]
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "Node"
+    },
+    {
+      "children": [
+        1,
+        2,
+        7
+      ],
+      "name": "Yup2Zup",
+      "rotation": [
+        0.7071067690849304,
+        0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "defaultobject.001",
+      "scale": [
+        89.252685546875,
+        89.252685546875,
+        89.252685546875
+      ]
+    },
+    {
+      "children": [
+        9
+      ],
+      "name": "defaultobject"
+    },
+    {
+      "children": [
+        10
+      ],
+      "name": "0223_Puma.obj",
+      "scale": [
+        2.607434034347534,
+        2.607434034347534,
+        2.607434034347534
+      ],
+      "translation": [
+        -0.19464993476867676,
+        0.09849649667739868,
+        -1.1940253973007202
+      ]
+    },
+    {
+      "children": [
+        11
+      ],
+      "name": "Node.005",
+      "translation": [
+        -0.0026124061550945044,
+        -0.06047365814447403,
+        0.8467910289764404
+      ]
+    },
+    {
+      "children": [
+        12
+      ],
+      "name": "Node.004",
+      "translation": [
+        0.0026124061550945044,
+        0.06047365814447403,
+        -0.8467910289764404
+      ]
+    },
+    {
+      "children": [
+        13
+      ],
+      "name": "Node.003",
+      "rotation": [
+        0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ]
+    },
+    {
+      "name": "headLight.001",
+      "translation": [
+        -3.2299907207489014,
+        1.6149953603744507,
+        -1.6149953603744507
+      ]
+    },
+    {
+      "children": [
+        15
+      ],
+      "name": "Camera.001",
+      "rotation": [
+        0.5075667500495911,
+        -0.2202061414718628,
+        0.1360020488500595,
+        0.8218203186988831
+      ],
+      "translation": [
+        -3.3821821212768555,
+        4.23670768737793,
+        5.922456741333008
+      ]
+    },
+    {
+      "name": "keyLight.001",
+      "rotation": [
+        -0.7113732099533081,
+        -0.11029914766550064,
+        0.15987743437290192,
+        0.6754416227340698
+      ],
+      "scale": [
+        0.0,
+        1.1166348912183821E-7,
+        3.262291193008423
+      ],
+      "translation": [
+        -3.149904251098633,
+        7.441847324371338,
+        -3.2361950874328613
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        8,
+        14,
+        16,
+        17
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}
